@@ -8,7 +8,7 @@ def LoginFunction(basic_oauth, jama_username, jama_password, jama_base_url_v2):
     #   jama_password = string, password or client secret
     #   jama_base_url_v2 = string, i.e. https://yourjamainstance.com/rest/v2/
 
-    # OAUTH NOT CURRENTLY WORKING FOR SOME REASON!
+    # TODO OAUTH NOT CURRENTLY WORKING FOR SOME REASON!
 
     print(f"\nAttempting to authenticate with Jama Connect using {basic_oauth.upper()}...")
     session = requests.Session()
